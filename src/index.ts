@@ -7,10 +7,10 @@
 import { getAsyncLifecycle, defineConfigSchema } from '@openmrs/esm-framework';
 import { configSchema } from './config-schema';
 
-const moduleName = '@openmrs/esm-template-app';
+const moduleName = '@openmrs/esm-active-prescriptions-app';
 
 const options = {
-  featureName: 'root-world',
+  featureName: '',
   moduleName,
 };
 
